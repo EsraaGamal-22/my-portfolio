@@ -427,6 +427,14 @@ text-decoration: underline;
 }
 input { height: 50px; }
 .tm-contact p { padding-top: 40px; }
+.sr-only{
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
 /* END CONTACT */
 
 @media screen and (max-device-width: 1024px){
